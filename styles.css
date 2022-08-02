@@ -1,0 +1,44 @@
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+input {
+    font-size: 1rem;
+    border-radius: 10px;
+    border-style:dashed;
+    background-color: white;
+}
+
+.user-cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 0.5rem;
+
+
+}
+
+.card > .header {
+    margin-bottom: 0.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card > .body {
+    font-size: 0.8rem;
+    color: #888 ;
+    margin-bottom: 0.25rem;
+}
+
+.hide {
+    display: none;
+}
